@@ -1,11 +1,19 @@
-/*body {*/
-/*  background-color: white;*/
-/*  color: black;*/
-/*  font-family: Verdana;*/
-/*}*/
-/*span {*/
-/*    background-color: DarkRed;*/
-/*  }*/
+.page-layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.content {
+  flex: 1;
+}
+.sidebar-image img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 12px;
+}
 .main{
   background-image: linear-gradient(to right, MidnightBlue, RebeccaPurple, Salmon, Gainsboro);
   }
