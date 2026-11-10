@@ -1,2 +1,2 @@
 # deltanoid.github.io
-temp site for domain redirect
+Main page of deltanoid.net
