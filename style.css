@@ -1,0 +1,28 @@
+/*body {*/
+/*  background-color: white;*/
+/*  color: black;*/
+/*  font-family: Verdana;*/
+/*}*/
+/*span {*/
+/*    background-color: DarkRed;*/
+/*  }*/
+.main{
+  background-image: linear-gradient(to right, MidnightBlue, RebeccaPurple, Salmon, Gainsboro);
+  }
+.stinky {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: white;
+  }
+.note {
+  color: red;
+  font-size: 10px;
+  }
+.white{
+  color: white;
+  }
+.white:visited{
+    color: Aquamarine;
+  }
+.center{
+   display: inline-block;
+  }
