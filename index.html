@@ -10,6 +10,9 @@
   <body class="main">
     <header class="hub-header">
       <h1 class="white"><span>Deltanoid's Hub</span></h1>  
+      <div class="controls">
+        <button class="btn-toggle" onclick="toggleGradient()">Theme</button>
+      </div>
     </header>
 
     <main class="dashboard">
@@ -26,9 +29,9 @@
       <!-- spotify thing -->
       <section class="widget">
         <h2>Music</h2>
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3huY1HtfehmXUfHMocauAo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        <p style="color: white;"> 751 Songs as of 19/10/2024</p>
-        <p style="color: white;"> 781 Songs as of 10/11/2026</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3huY1HtfehmXUfHMocauAo?utm_source=generator" width="100%" height="360" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <p> 751 Songs as of 19/10/2024</p>
+        <p> 781 Songs as of 10/11/2026</p>
       </section>
     
       <!-- aku + ur mom -->
@@ -53,5 +56,12 @@
     <footer class="hub-footer">
       <p class="note">Reminder to "control + f5" to refresh page cache every now and then</p>
     </footer>
+
+    <script>
+      function toggleGradient() {
+          // Toggles the 'alt-gradient' class on the body tag
+          document.body.classList.toggle('alt-gradient');
+      }
+    </script>
   </body>
 </html>
